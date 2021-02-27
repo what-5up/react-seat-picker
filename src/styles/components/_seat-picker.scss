@@ -8,7 +8,7 @@
   width: max-content;
 
   & > *:not(:last-child){
-    margin-bottom: 2px;
+    margin-bottom: 10px;
   }
 
   &__row{
@@ -17,7 +17,7 @@
     justify-items: center;
 
     & > *:not(:last-child){
-      margin-right: 2px;
+      margin-right: 5px;
     }
 
     &__number {
@@ -29,16 +29,6 @@
       align-items: center;
       text-align: center;
       color: $color-row-number;
-    }
-
-    &--enabled{
-      &:hover {
-        background-color: $color-row-selection;
-      }
-    }
-    
-    &--selected{
-      background-color: $color-row-selection;
     }
 
     &--enabled:hover > &__number{
